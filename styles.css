@@ -1,0 +1,6 @@
+pre[lang="mermaid"] code {
+    stroke:#000;
+}
+pre[lang="mermaid"] code .label {
+    color: #000 !important;
+}

@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"Mermaid Support for Github Flavored Markdown",
+    "version":"1.0.0",
+    "permissions":["tabs"],
+    "content_scripts":[
+	{
+	    "matches":["*://github.com/*"],
+	    "css":["styles.css"],
+	    "js":["mermaid.full.js","init.js"]
+	}
+    ]
+}
